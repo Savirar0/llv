@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     canvasParent.style.background = `url(${tree.toDataURL("image/png")})`;
 
     // Set CSS properties directly on the canvas element
-    canvas.style.background = "#ffe";
+    canvas.style.background = "#CADCFC;";
     await sleep(300);
     canvas.style.background = "none";
   };
