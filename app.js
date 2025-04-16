@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Set CSS properties directly on the canvas element
     canvas.style.background = "#CADCFC;";
     await sleep(300);
-    canvas.style.background = "none";
+    canvas.style.background = "#CADCFC;";
   };
 
   const jumpAnimate = async () => {
